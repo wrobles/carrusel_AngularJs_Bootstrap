@@ -8,12 +8,8 @@
  * Controller of the carruselApp
  */
 angular.module('carruselApp')
-  .controller('MainCtrl', ['$scope', function ($scope) {
-    /*this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];*/
+  .controller('MainCtrl', ['$scope', function($scope) {
+   
     var baseURL='http://lorempixel.com/960/450/';
     $scope.setInterval = 5000; 
     $scope.noWrapSlides = false;
@@ -34,4 +30,5 @@ angular.module('carruselApp')
 			text:'¡Mantente en armonía con la naturaleza!'
 		}
     ];
+
   }]);
